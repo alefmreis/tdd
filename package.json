@@ -1,0 +1,32 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefmreis/tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alefmreis/tdd/issues"
+  },
+  "homepage": "https://github.com/alefmreis/tdd#readme",
+  "dependencies": {
+    "koa": "2.11.0",
+    "koa-bodyparser": "4.2.1",    
+    "koa2-cors": "2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "25.1.0"
+  }
+}
